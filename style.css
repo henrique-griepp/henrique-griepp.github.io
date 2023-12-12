@@ -1,15 +1,15 @@
 
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Arial, Helvetica;
+}
 body {
     background: linear-gradient(to bottom right, #f0f0f0, #c0c0c0);
-    margin: 0%;
-    margin-top: 30px;
-    padding: 10px;
-    align-items: center;
-    background-attachment: fixed; /* MantÃ©m o degradÃª fixo */
-    background-origin: border-box; /* ComeÃ§a o degradÃª nas bordas */
-    background-clip: content-box; /* Limita o degradÃª ao conteÃºdo */
-    display: flex;
-    flex-direction: column;
+    background-attachment: fixed;
+    margin-top: 40px;
+   
 }
 header {
     width: 100%;
@@ -57,6 +57,7 @@ header {
     border:0;
 }
 .social-media{
+    background: ;
     margin-top: 2vh;
     margin-bottom: 4vh;
     display: flex;
@@ -66,12 +67,19 @@ header {
     
 }
 .social-button {
+    background: ;
     margin: 5px;
     width: 40px;
     height: 40px; 
+    transition: transform 0.3s;
 }
-#text-medias {
-    font-style: inherit, solid, black;
+
+.social-button:hover{
+    transform: scale(1.2);
+}
+
     
 }
+
+@media (min-width: 360px){}
 
